@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="TP Exam Final du 13/08/2021">
+    <title>TP Exam Final</title>
+
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+    <header>
+        <h1>HTML dans sa globalité</h1>
+    </header>
+
+
+
+    <article>
+        <div>
+            <h2>Bonjour!</h2>
+            <p>Je m'apelle <strong>Leroux Gary</strong>, j'ai <strong>22 ans</strong> et je suis né le 21/08/1998.
+                Je suis né à Soissons. <em>J'aime l'art, la spiritualité, les jeux vidéos, les balades et la
+                    nature.</em>
+            </p>
+        </div>
+    </article>
+
+    <hr>
+    <article>
+        <div>
+            <h2>Mon parcours</h2>
+
+            <ul>
+                <li>Employé polyvalent - McDonald's</li>
+                <li>Baccalauréat Professionel - Lycée Camille Claudel SOISSONS</li>
+                <li>Fomation vente - Lycée Léonard de Vinci SOISSONS</li>
+                <li>Hôtellerie restauration - Lycée Le Corbusier SOISSONS</li>
+                <li>Collège Maurice Wajsfelner</li>
+            </ul>
+        </div>
+    </article>
+
+
+
+
+    <div>
+        <h2>Mes compétences en web</h2>
+        <table border="2">
+            <tr>
+                <th>Technologie</th>
+                <th>Débutant</th>
+                <th>Moyen</th>
+                <th>Bon</th>
+                <th>Expert</th>
+            </tr>
+            <tr>
+                <td><img src="html.svg" alt="Logo HTML"></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>X</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><img src="css.svg" alt="Logo CSS"></td>
+                <td>X</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td><img src="js.svg" title="Logo JavaScript"></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><img src="php.svg" title="Logo PHP"> </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><img src="sql.svg" alt="Logo SQL"></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+    <h2>Me contacter</h2>
+    <div>
+        <a href="mailto:gary.leroux21@gmail.com" rel="nofollow" target="_blank"
+            title="Redirection vers mon adresse e-mail">Voici mon
+            e-mail</a>
+        <br>
+        <a href="tel:07.61.52.43.34" rel="nofollow" target="_blank"
+            title="Lien pour passer un appel avec moi directement">Voici mon numéro de téléphones</a>
+    </div>
+    <hr>
+    <h3>Formulaire de contact</h3>
+    <form method="post">
+    <div>
+        <input type="radio" id="M" name="genre" value="M">
+        <label for="M">Homme</label>
+    </div>
+    <div>
+        <input type="radio" id="F" name="genre" value="F">
+        <label for="F">Femme</label>
+    </div>
+    <div>
+        <label for="nometprenom">Nom & Prénom:</label>
+        <input type="text" id="nometprenom" name="nometprenom" placeholder="ex : Didier Deschamps" required>
+    </div>
+    <div>
+        <label for="Age">Âge :</label>
+        <input type="number" id="Age" name="Age" placeholder="Ex : 52" required>
+        <label for="Age">Ans</label>
+    </div>
+
+    <div>
+        <label for="email">E-Mail :</label>
+        <input type="email" id="email" name="email" placeholder="ex : prenom@domain.com" required>
+    </div>
+    <div>
+
+        <label for="sujet-select">Sujet</label>
+
+        <select name="sujet" id="sujet-select">
+            <option value="">Choisissez</option>
+            <option value="dog">HTML</option>
+            <option value="cat">CSS</option>
+            <option value="hamster">JS</option>
+            <option value="parrot">PHP</option>
+            <option value="spider">SQL</option>
+        </select>
+    </div>
+    <div>
+        <label for="msg">Votre message</label>
+        <textarea id="msg" name="msg" placeholder="ex : Madame, Monsieur ..."></textarea>
+    </div>
+
+    <div>
+        <input type="checkbox" id="donnees" name="donnees" checked>
+        <label for="donnees">En cochant cette case j'accepte les conditions relatives à l'utilisation de mes données
+            personnelles. (accéder aux mentions légales)</label>
+    </div>
+
+    <div>
+        <input type="submit" value="Envoyer le message" name="submit">
+    </div>
+
+    </form>
+
+    <hr>
+    <footer>
+        <p>ont peux inscrire le Copyright (etc)</p>
+
+    </footer>
+
+</body>
+</html>
